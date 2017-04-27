@@ -4,9 +4,10 @@ import pylab as pl
 import scipy.misc
 
 
-dt = 0.05 
+dt = 0.10 
 
-img = scipy.misc.imread("mona-lisa.png")
+imgc = scipy.misc.imread("mona-lisa.png")
+img  = imgc.mean(2)
 jitter = random.rand(*img.shape)/3*dt
 
 n = img.shape[0]
