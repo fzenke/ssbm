@@ -8,16 +8,17 @@ When using a benchmark from this suite, please cite the benchmark name, address
 of this repository (https://github.com/fzenke/ssbm) and version number/commit.
 
 
-# Contribute 
+## Contribute 
 
 Please see this early version of the suite as an invitation to suggest and add
 your own benchmarks. Please submit your suggestions through the ticketing
-system or get in touch by email.
+system or contact me by email such that I can make you a contributor of this 
+repo.
 
 
-# Benchmarks 
+## Benchmarks 
 
-## Precise timing 
+### Precise timing 
 
 All precise timing benchmarks contain a spike raster file with the input spikes
 (input.ras) and the target spike times (target.ras). These files are human
