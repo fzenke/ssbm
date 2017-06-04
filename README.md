@@ -7,6 +7,9 @@ learning techniques in spiking nets more comparable to each other.
 Please see this early version of the suite as an invitation to suggest and add
 your own benchmarks. Please get in touch.
 
+When using a benchmark from this suite for your work please cite the benchmark name, 
+address of this repository and version number/commit.
+
 
 # Overview 
 
