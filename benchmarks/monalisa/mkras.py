@@ -1,6 +1,6 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 from numpy  import *
-import pylab as pl
+import matplotlib.pyplot as plt
 import scipy.misc
 
 
@@ -8,14 +8,14 @@ dt = 0.10
 
 imgc = scipy.misc.imread("mona-lisa.png")
 img  = imgc.mean(2)
-jitter = random.rand(*img.shape)/3*dt
+jitter = random.rand(*img.shape)*dt
 
 n = img.shape[0]
 print("# neurons %i, temporal resolution %fs, time grid %fs"%(n, dt, dt*img.shape[1]))
-pl.imshow(img)
-pl.show()
+plt.imshow(img)
+plt.show()
 
-for j in xrange(img.shape[1]):
-    for i in xrange(img.shape[0]):
+for j in range(img.shape[1]):
+    for i in range(img.shape[0]):
         if img[i,j]==0.0:
             print("%f %i"%(dt*j+jitter[i,j],n-i))
