@@ -1,4 +1,4 @@
-# SSBM: Supervised learning in Spiking neural networks benchmark suite
+# SSBM: Supervised learning in Spiking neural networks BenchMark suite
 
 This is v0.1 of the SSBM benchmark suite, a collection of benchmarks for
 supervised learning in spiking neural networks. It is meant to make supervised
