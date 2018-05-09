@@ -35,3 +35,12 @@ seconds and the second column denotes the id of the unit emitting a spike.
   trains resembling the Auryn logo
 * monalisa: 1000 Poisson input spike trains with 33s duration, 500 output spike
   trains resembling Leonardo da Vinci's Mona Lisa
+
+
+### Classification problems
+
+#### DVS128 Gesture Dataset 
+
+The IBM DVS event-based gesture dataset. 
+http://www.research.ibm.com/dvsgesture/
+
